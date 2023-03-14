@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "gamedig": "^4.0.6",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/gamedig": "^4.0.0",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/superagent": "^4.1.15",
+    "@types/superagent-proxy": "^3.0.0",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
