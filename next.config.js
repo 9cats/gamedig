@@ -5,4 +5,9 @@ module.exports = {
     path: '',
   },
   reactStrictMode: true,
+  experimental: {
+    outputFileTracingIncludes: {
+      '/api': ['node_modules/**/compressjs*/**/*']
+    }
+  }
 };
